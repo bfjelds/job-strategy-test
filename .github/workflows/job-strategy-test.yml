@@ -19,9 +19,9 @@ jobs:
             version: 1.20/stable
         test:
           - case: end-to-end
-            test-file: test/run-end-to-end.py
+            file: test/run-end-to-end.py
           - case: webhook
-            test-file: test/run-webhook.py
+            file: test/run-webhook.py
 
     steps:
       - name: echo strategy
